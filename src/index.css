@@ -175,11 +175,22 @@ span {
 }
 
 .footer-info {
-  padding: 50px;
-  margin-bottom: 60px;
+  padding: 10px;
+  margin-bottom: 30px;
   box-shadow: 10px 10.98256px 10.4564px rgba(0, 0, 0, 0.1);
 }
 
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-icons > .icon-1, .icon-2, .icon-3 {
+  padding-left: 30px;
+}
 
 .copyright {
   padding: 30px;
