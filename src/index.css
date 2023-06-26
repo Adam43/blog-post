@@ -29,6 +29,7 @@ body {
 .header{
   grid-area: hd;
   padding: 10px;
+  
 }
 .footer{
   grid-area: ft;
