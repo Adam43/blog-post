@@ -1,0 +1,179 @@
+body {
+    /* height: 80rem; */
+    margin: 10px;
+    padding: 5px;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+
+/* NAV SECTION */
+
+.nav-titles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
+    /* border: 5px solid black; */
+    height: 70px;    
+    display: flex;    
+    padding: 20px 36px;    
+    margin-bottom: 5rem;
+    box-shadow: 10px 10.98256px 10.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+   
+/* CONTENT SECTION*/
+
+.all-post {
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+
+.title {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5em;
+}
+
+.container {
+    height: 60rem;
+}
+
+.container-deck {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80rem;
+}
+
+.card-container {
+    width: 300px;
+    border: 1px solid #e6e2e2;
+    padding: 10px;
+    margin: 20px;
+    margin-bottom: 100px; 
+    box-shadow: 10px 10px #e8e6e3;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.meta-categori {
+    color: gray;
+}
+
+.card-title {
+    text-align: left;
+    font-size: 24px;
+    /* align-self: center; */
+    width: 12rem;
+}
+
+/* @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  } */
+
+img {
+    width: 150px;
+    height: 200px;
+    border: 1px solid #e8e6e3;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-self: center;
+}
+
+.content {
+    border: 1px solid #e8e6e3;
+    padding: 10px 10px;
+}
+
+.about {
+    font-style: italic;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.short-facts {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.entry-meta {
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    font-size: 15px;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+    transition: 0.5;
+
+}
+
+.entry-meta:hover {
+    color: rgb(114, 114, 12);
+}
+
+.card-container:hover {
+    transform: translateY(-20px);
+}
+
+.side {
+    display: block;
+    padding: 10px;
+}
+
+
+
+/* FOOTER SECTION */
+
+.footer {
+    height: 250px !important;
+    color: red;
+  }
+  
+  .footer-info {
+    padding: 50px;
+    margin-bottom: 60px;
+    box-shadow: 10px 10.98256px 10.4564px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .copyright {
+    padding: 30px;
+    background-color: darkgreen;
+    color: #ffffff
+  }
