@@ -4,10 +4,7 @@
  @import 'header.css';
  @import 'layout.css';
  @import 'footer.css';
- @import 'blogs.css';
- @import 'posts.css'; /*Remove extra 's' */
- @import 'about.css';
- @import 'contact.css';
+ 
  
  
  /* BODY */
@@ -35,7 +32,7 @@ body {
    }
 .box{
   border: 1px solid red;
-  background: rgb(33, 174, 96);
+  background: white;
   }
 /* Assign grid area below */
 .header{

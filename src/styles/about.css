@@ -1,5 +1,34 @@
 /*footer.css*/
 
 /* Import CSS */
+@import 'header.css';
+@import 'layout.css';
+@import 'footer.css';
 
-/* CONTACT SECTION */
+/* ABOUT SECTION */
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: flex;
+    align-content: center;
+    text-align: center;
+}
+
+.about-title {
+    background-color: rgb(238, 157, 171);
+    padding: 21px 0;
+    margin: 0;
+}
+
+img {
+    width: 20rem;
+    padding-bottom: 5rem;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    padding: 0 20rem;
+}
