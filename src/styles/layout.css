@@ -1,0 +1,37 @@
+/*layout.css*/
+
+/* Import CSS */
+
+
+/* SIDEBAR SECTION */
+
+.sidebar {
+    padding-left: 20px;
+  }
+  
+  .sidebar-title > h2:hover {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .most-recent {
+    color: red;
+    font-weight: 900;
+  }
+  
+  span {
+    font-weight: 900;
+    color: rgb(212, 50, 50);
+  }
+
+
+
+/* BLOGS SECTION */
+
+
+
+/* ABOUT SECTION */
+
+
+
+/* CONTACT SECTION */
