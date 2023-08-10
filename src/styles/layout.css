@@ -42,8 +42,13 @@ a:hover {
   cursor: pointer;
 }
 
-
-
+ /* IMAGE CAPTIONS */
+.image-caption {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  margin-top: 0.5em;
+}
 
 
 /* SIDEBAR SECTION */
