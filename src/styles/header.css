@@ -33,17 +33,3 @@ a:hover {
     cursor: pointer;
 }
 
-/* CONTENT SECTION */
-.title {
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5em;
-}
-
-/* .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-   */
